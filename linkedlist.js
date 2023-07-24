@@ -1,9 +1,14 @@
+// this is the node class constructor with aconstructor that takes in value as a param and sets it as a key.
+// this .next is initialized as null so that it may be set to a value when a chain is added.
 class Node {
     constructor(value){
         this.value = value
         this.next = null
     }
 }
+// this is the linked list class it has a constructor that has the head initialized as null and the size set to 0
+// this class has functions to retun the size  and prepend value that is created via the node constructor
+// you can also prepend entire arrays
 class LinkedList {
     constructor() {
         this.head = null
